@@ -95,17 +95,4 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ The Ansible config_file 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://20.150.142.133:5601/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.**_ansible-playbook filebeat-playbook.yml**
-=======
-- Copy the _Ansible_host_ file to /etc/ansible_____.
-- Update the _host_ file to include... the IP address of my web sesrvers
-- Run the playbook, and navigate to _kibana_ to check that the installation worked as expected.
-
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? /etc/ansible/files Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-
->>>>>>> 5c0de4e8bbe7429536e869aa614b0e7373443648
+_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._ansible-playbook filebeat-playbook.yml
